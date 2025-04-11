@@ -1,0 +1,41 @@
+/* src/Views/HomePage.css */
+.prof-homepage {
+    text-align: center;
+    padding: 50px;
+}
+
+.prof-homepage h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.prof-homepage p {
+    font-size: 1.5rem;
+    color: #555;
+}
+
+.prof-color-box {
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.prof-color-box.prof-red {
+    background-color: red;
+}
+
+.prof-color-box.prof-blue {
+    background-color: blue;
+}
+
+.prof-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.prof-button:hover {
+    background-color: #ddd;
+}
